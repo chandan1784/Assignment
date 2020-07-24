@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function displayInventory(anything)
+
+ {
+document.write("<TABLE BORDER=ON>");
+document.write("<TH>Roll Number</TH><TH>Student Name</TH><TH>College Name</TH><TH>Marks</TH> <TH>Sem</TH>");
+for(x=1; x<=6; x++) {
+document.write("<TR><TD>",x,"</TD>");
+for(y=0; y<=3; y++){
+document.write("<TD>",anything[x][y],"</TD>");
+}
+document.write("</TR>");
+}
+document.write("</TABLE>");
+}
+
+
+part1 = new Array("virat","IIT",78,5);
+
+part2 = new Array("virat","IIT",78,5);
+part3 = new Array("virat","IIT",78,5);
+part4 = new Array("virat","IIT",78,5);
+part5 = new Array("virat","IIT",78,5);
+part6 = new Array("virat","IIT",78,5);
+brakeParts = new Array("",part1,part2,part3,part4,part5,part6);
+
+displayInventory(brakeParts);
+</script>
+</head>
+<body>
+</body>
+</html>
