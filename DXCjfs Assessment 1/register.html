@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up </title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        
+        <form method="post" target="#" onsubmit="return validate()">
+        <h1>Registration Form </h1>
+        <p>Create your account if you don't have</p>
+        
+      	Name<br>
+      	<input type="text" name="name" required><br>
+        Email<br>
+	<input type="text" name="email" required=""><br>
+        Retype email<br>
+      	<input type="text" name="retype_email" required><br>
+        Create a password<br>
+	<input type="password" name="password" ><br>
+        Retype password<br>
+	<input type="password" name="retype_password"><br>
+
+  <tr>
+<th>Select your DOB</th>
+<td><input type="date"/></td>
+</tr>
+<tr>
+<br>
+
+<fieldset>
+  <legend>Education</legend>
+  <select class="form-control dropdown" id="education" name="education">
+    <option value="" selected="selected" disabled="disabled">-- select one --</option>
+    <option value="B.tech Computer Science Engineering">Computer Science Engineering</option>
+    <option value="B.tech Electronic engineering">Electronic engineering</option>
+    <option value="Bachelor of Arts">Bachelor of Arts</option>
+    <option value="Mtech computer science">Mtech computer science</option>
+  </select>
+</fieldset>
+<br>
+
+<label>
+          <input type="checkbox" name="terms">By registering you agree to Terms of Service and Privacy Policy
+        </label>
+        
+        
+            
+      	<div class="button">
+          <input type="submit" class="button" value="Click here to register" >
+        </div>
+        
+	</form>
+</body>
+</html>
