@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="SaveServlet">
+Product Id :<input type="text" name="prodId">
+<br>
+
+Product Name :<input type="text" name="prodName">
+<br>
+
+Product Price :<input type="text" name="prodPrice">
+<br>
+Mfd :<input type="date" name="mfd">
+<br>
+
+
+Product Colour :<input type="text" name="prodColour">
+<br>
+
+Exp Date :<input type="date" name="expDate">
+<br>
+
+<input type="submit">
+
+</form>
+
+<form action="GetProducts">
+<input type="submit" value="display all products">
+</form>
+
+<form action="GetDeleteProducts">
+<input type="submit" value="Delete product">
+<input type= "text" name="id">
+</form>
+
+<form action="SearchProductByName">
+<input type="submit" value="Search">
+<input type= "text" name="name">
+</form>
+
+
+</body>
+</html>
+
