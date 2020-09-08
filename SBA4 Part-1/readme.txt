@@ -1,1 +1,1 @@
-CSS written in jsp file
+CSS written in home.jsp file
