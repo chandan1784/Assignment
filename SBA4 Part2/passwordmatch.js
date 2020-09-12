@@ -1,0 +1,2 @@
+alert("Password Changed");
+
